@@ -35,8 +35,6 @@ namespace Code9_AdsProject
 
             services.AddScoped<ICategoryService, CategoryService>();
 
-            services.AddScoped<IAdService, AdService>();
-
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
